@@ -1,0 +1,40 @@
+/* This is for the header and bio/intro*/
+
+.dark-background{
+  background-color: #112C4F;
+}
+nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.header-links {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.intro-bold {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.intro-reg {
+  color: #e5e7eb;
+  font-size: 18px;
+}
