@@ -1,8 +1,15 @@
-/* This is for the header and bio/intro*/
+/* These are the backgrou colors*/
 
-.dark-background{
+.dark-background {
   background-color: #112C4F;
 }
+
+.quote-background {
+  background-color: #e5e7eb;
+}
+
+/* This is for the header and bio/intro*/
+
 nav {
   display: flex;
   margin: auto;
@@ -38,3 +45,34 @@ nav {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.signUp {
+  border: none;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.intro-img {
+  width: 500px;
+  height: auto;
+}
+
+.intro-main {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-div {
+  width: 40%;
+}
+.intro-div p {
+  margin: 25px;
+  margin-left: 0px;
+}
+
