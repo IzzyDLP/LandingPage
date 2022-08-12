@@ -8,6 +8,12 @@
   background-color: #e5e7eb;
 }
 
+/*General img guidelines*/
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 /* This is for the header and bio/intro*/
 
 nav {
@@ -76,3 +82,111 @@ nav {
   margin-left: 0px;
 }
 
+/*This is for the random images*/
+.random {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 75%;
+  height: 500px;
+}
+
+.random .randompictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.randomimg {
+  width: 200px;
+}
+
+.random .randomheader {
+  margin: 0px auto;
+}
+
+.randomheader{
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+/*This is for the quote area*/
+.quotearea {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quotearea div {
+  width: 50%;
+}
+
+.quotearea div span {
+  float: right;
+  font-size: 32p;
+  font-weight: bolder;
+}
+
+/*This is for the source area near bottom*/
+
+.signuparea {
+  display: flex;
+  width: 75%;
+  height: 250px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.signuparea div {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+
+.signuparea strong {
+  color: white;
+  font-size: 28px;
+}
+
+.signuparea p {
+  color: white;
+  font-size: 14px;
+}
+
+.signuparea div .signupinside {
+  display: flex;
+  flex-direction: column;
+}
+
+.signuparea div div {
+  margin: 25px;
+}
+
+.sourcebutton {
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
+/*This is for the footer*/
+footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
